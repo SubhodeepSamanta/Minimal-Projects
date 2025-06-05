@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/youtube.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-left">
+            <img src="assets/icons/hamburger-menu.svg" alt="menu" class="menu">
+            <img src="assets/icons/youtube-logo.svg" alt="logo" class="logo">
+        </div>
+        <div class="header-middle">
+            <input type="text" placeholder="Search">
+            <button class="search"><img src="assets/icons/search.svg" alt="search">
+                <div class="tool">Search</div>
+            </button>
+            <button id="voice"><img src="assets/icons/voice-search-icon.svg" alt="voice search">
+                <div class="tool">Search with your voice</div>
+            </button>
+        </div>
+        <div class="header-right">
+            <div class="upload-wrapper">
+                <img src="assets/icons/upload.svg" alt="upload">
+                <div class="tool">Upload</div>
+            </div>
+            <!-- In your HTML, update these texts: -->
+            <div class="appswrapper">
+                <img src="assets/icons/youtube-apps.svg" alt="youtube apps">
+                <div class="tool">YouTube apps</div>
+            </div>
+            <div class="notifications-wrapper">
+                <img src="assets/icons/notifications.svg" alt="notifications">
+                <p class="notification">3</p>
+                <div class="tool">Notifications</div>
+            </div>
+            <div class="my-channel-wrapper">
+                <img src="assets/channels/my-channel.jpeg" alt="my channel" id="my-channel">
+                <div class="tool">Channel</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="sidebar-icons">
+            <img src="assets/icons/home.svg" alt="home">
+            <p class="sidebar-text">Home</p>
+        </div>
+        <div class="sidebar-icons">
+            <img src="assets/icons/explore.svg" alt="explore">
+            <p class="sidebar-text">Explore</p>
+        </div>
+        <div class="sidebar-icons">
+            <img src="assets/icons/subscriptions.svg" alt="subscriptions">
+            <p class="sidebar-text">Subscriptions</p>
+        </div>
+        <div class="sidebar-icons">
+            <img src="assets/icons/originals.svg" alt="originals">
+            <p class="sidebar-text">Originals</p>
+        </div>
+        <div class="sidebar-icons">
+            <img src="assets/icons/youtube-music.svg" alt="youtube music">
+            <p class="sidebar-text">YouTube Music</p>
+        </div>
+        <div class="sidebar-icons">
+            <img src="assets/icons/library.svg" alt="library">
+            <p class="sidebar-text">Library</p>
+        </div>
+    </div>
+
+    <main>
+        <div class="grid">
+            <div class="video1">
+                <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY&ab_channel=MarquesBrownlee">
+                <img src="assets/thumbnails/thumbnail-1.webp" alt="thumbnail">
+            </a>
+                <div class="details">
+                        <div class="channel-wrapper">
+                            <img src="assets/channels/channel-1.jpeg" alt="channel">
+                            <div class="tooltip">
+                                <img src="assets/channels/channel-1.jpeg" alt="channel">
+                                <span><p class="channel-name">Marques Brownlee</p>
+                                <p class="stats">30M subscribers</p></span>
+                            </div>
+                        </div>
+                    <div class="text">
+                        <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY&ab_channel=MarquesBrownlee" target="_blank"><p class="title">Talking Tech and AI with Google CEO Sundar Pichai!</p></a>
+                        <p class="channel-name">Marques Brownlee</p>
+                        <p class="stats">3.4M views &#x2022; 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video1">
+                <img src="assets/thumbnails/thumbnail-2.webp" alt="thumbnail">
+                <div class="details">
+                    <img src="assets/channels/channel-2.jpeg" alt="channel">
+                    <div class="text">
+                        <p class="title">Try Not To Laugh Challenge #9</p>
+                        <p class="channel-name">Markiplier</p>
+                        <p class="stats">19M views &#x2022; 4 years ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video1">
+                <img src="assets/thumbnails/thumbnail-3.webp" alt="thumbnail">
+                <div class="details">
+                    <img src="assets/channels/channel-3.jpeg" alt="channel">
+                    <div class="text">
+                        <p class="title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                        <p class="channel-name">SSSniperWolf</p>
+                        <p class="stats">12M views &#x2022; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video1">
+                <img src="assets/thumbnails/thumbnail-4.webp" alt="thumbnail">
+                <div class="details">
+                    <img src="assets/channels/channel-4.jpeg" alt="channel">
+                    <div class="text">
+                        <p class="title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+                        <p class="channel-name">Veritasium</p>
+                        <p class="stats">18M views &#x2022; 4 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video1">
+                <img src="assets/thumbnails/thumbnail-5.webp" alt="thumbnail">
+                <div class="details">
+                    <img src="assets/channels/channel-5.jpeg" alt="channel">
+                     <div class="text">
+                        <p class="title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+                        <p class="channel-name">CS Dojo</p>
+                        <p class="stats">519K views &#x2022; 5 years ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video1">
+                <img src="assets/thumbnails/thumbnail-6.webp" alt="thumbnail">
+                <div class="details">
+                    <img src="assets/channels/channel-6.jpeg" alt="channel">
+                    <div class="text">
+                        <p class="title">Anything You Can Fit In The Circle I&#x27;ll Pay For</p>
+                        <p class="channel-name">MrBeast</p>
+                        <p class="stats">3.4M views &#x2022; 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video1">
+                <img src="assets/thumbnails/thumbnail-7.webp" alt="thumbnail">
+                <div class="details">
+                    <img src="assets/channels/channel-7.jpeg" alt="channel">
+                    <div class="text">
+                        <p class="title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        <p class="channel-name">Marques Brownlee</p>
+                        <p class="stats">3.4M views &#x2022; 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video1">
+                <img src="assets/thumbnails/thumbnail-8.webp" alt="thumbnail">
+                <div class="details">
+                    <img src="assets/channels/channel-8.jpeg" alt="channel">
+                    <div class="text">
+                        <p class="title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        <p class="channel-name">Marques Brownlee</p>
+                        <p class="stats">3.4M views &#x2022; 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video1">
+                <img src="assets/thumbnails/thumbnail-9.webp" alt="thumbnail">
+                <div class="details">
+                    <img src="assets/channels/channel-9.jpeg" alt="channel">
+                    <div class="text">
+                        <p class="title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        <p class="channel-name">Marques Brownlee</p>
+                        <p class="stats">3.4M views &#x2022; 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video1">
+                <img src="assets/thumbnails/thumbnail-10.webp" alt="thumbnail">
+                <div class="details">
+                    <img src="assets/channels/channel-10.jpeg" alt="channel">
+                    <div class="text">
+                        <p class="title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        <p class="channel-name">Marques Brownlee</p>
+                        <p class="stats">3.4M views &#x2022; 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video1">
+                <img src="assets/thumbnails/thumbnail-11.webp" alt="thumbnail">
+                <div class="details">
+                    <img src="assets/channels/channel-11.jpeg" alt="channel">
+                    <div class="text">
+                        <p class="title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        <p class="channel-name">Marques Brownlee</p>
+                        <p class="stats">3.4M views &#x2022; 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video1">
+                <img src="assets/thumbnails/thumbnail-12.webp" alt="thumbnail">
+                <div class="details">
+                    <img src="assets/channels/channel-12.jpeg" alt="channel">
+                    <div class="text">
+                        <p class="title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        <p class="channel-name">Marques Brownlee</p>
+                        <p class="stats">3.4M views &#x2022; 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
