@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
+
 import './App.css'
+import ChildA from './ChildA';
 
 function App() {
   const [time,setTime]=useState(0);
@@ -35,6 +37,7 @@ function App() {
 
     <div>{value}</div>
     <input type="text" value={text} onChange={(e)=> setText(e.target.value)}/>
+    <ChildA/>
     </>
   )
 }
