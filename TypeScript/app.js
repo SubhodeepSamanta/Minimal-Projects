@@ -14,6 +14,6 @@ var Direction;
 })(Direction || (Direction = {}));
 console.log(Direction);
 const greet = (name) => {
-    console.log("Hello" + name);
+    console.log("Hello " + name);
 };
 greet("Subhodeep");
